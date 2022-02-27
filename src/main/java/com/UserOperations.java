@@ -1,6 +1,7 @@
 package com;
 
 import com.model.Tokens;
+import com.model.User;
 import com.model.UserRegisterResponse;
 import org.apache.commons.lang3.RandomStringUtils;
 
@@ -76,5 +77,4 @@ public class UserOperations {
                 .then()
                 .statusCode(202);
     }
-
 }
